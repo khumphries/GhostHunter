@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/barrier_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sendMessage4"
+        android:text="@string/barrier_button" >
+    </Button>
+
+    <Button
+        android:id="@+id/bomb_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sendMessage"
+        android:text="@string/bomb_button" >
+    </Button>
+
+    <Button
+        android:id="@+id/immortality_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sendMessage2"
+        android:text="@string/immortality_button" >
+    </Button>
+
+    <Button
+        android:id="@+id/speed_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sendMessage3"
+        android:text="@string/speed_button" >
+    </Button>
+
+</LinearLayout>
